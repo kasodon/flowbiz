@@ -1,0 +1,83 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  @media (min-width: 760px) and (max-width: 1024px) {
+    max-width: 100%;
+    max-height: 100%;
+}
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  box-sizing: border-box;
+  font-family: 'AdobeLight';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "AdobeBolder";
+  src: local("AdobeBolder"),
+   url("./assets/fonts/AdobeCleanBlack.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "AdobeBold";
+    src: local("AdobeBold"),
+     url("./assets/fonts/AdobeCleanBold.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "AdobeRegular";
+    src: local("AdobeRegular"),
+     url("./assets/fonts/AdobeCleanRegular.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: "AdobeLight";
+    src: local("AdobeLight"),
+     url("./assets/fonts/AdobeCleanLight.otf") format("opentype");
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    // font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+      font-size: 3.5rem;
+      line-height: 60px;
+      font-family: "AdobeBolder";
+      // @media only screen and (max-width: 600px) { font-size: 2.8rem; }
+  }
+  
+  h2 {
+      font-size: 2.8rem;
+      line-height: 48px;
+      // @media only screen and (max-width: 600px) { font-size: 2.4rem; }
+  }
+  
+  h3 {
+      font-size: 2.3rem;
+      line-height: 34px;
+      // @media only screen and (max-width: 600px) { font-size: 1.9rem; }
+  }
+  
+  h4 {
+      font-size: 2rem;
+      line-height: 30px;
+      // @media only screen and (max-width: 600px) { font-size: 1.4rem; }
+  }
+  
+  a {
+      text-decoration: none;
+  }
